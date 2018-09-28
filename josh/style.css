@@ -1,0 +1,153 @@
+body {
+    background-color: rgb(70, 74, 86);
+    transform: perspective(1400px) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform-style: preserve-3d;
+}
+p {
+    margin: 10px;
+    color: rgb(17, 17, 17);
+    font-family: Verdana;
+}
+
+.content {
+    position: absolute;
+    background-image: none;
+    transform-style: preserve-3d;
+    background-color: rgb(224, 44, 79);
+	left: 0%;
+	width: 75%;
+    height: 80%;
+    top: 10%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px, rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
+    transform: translate3d(-2px, 0px, 50px) rotateY(5.21246deg);
+    transition: all 0.5s ease-out;
+}
+.content:hover {
+    background-color: rgb(227, 229, 139);
+    transition: all 0.5s ease-out;
+}
+.content:hover .iframe {
+    opacity: 1;
+    transition: all 0.5s ease-out;
+}
+.content:hover .photograph {
+opacity: 0;
+transition: all 0.5s ease-out;
+}
+.content:hover .quote {
+    opacity: 0;
+    transition: all 0.5s ease-out;
+}
+
+.header-expand {
+    position: absolute;
+	transform-style: preserve-3d;
+	top: -10.73%;
+	height: 100%;
+	transform: translate3d(-8px, 70px, 0px);
+	transform-origin: 93.1506px 323.766px 0px;
+	left: 86%;
+	width: 14%;
+}
+.header-expand:hover .header {
+    background-color: rgb(128, 194, 209);
+	transform: translate3d(-500px, -350px, 100px) rotateZ(-87deg) scale3d(1.1, 1.1, 1);
+    transition: all 0.5s ease-out;
+}
+.header {
+    position: absolute;
+    background-image: none;
+    background-color: rgb(105, 162, 175);
+    transform-style: preserve-3d;
+    top: 50%;
+    height: 553px;
+    width: 172px;
+    left: 100%;
+	transform-origin: 86.2062px 299.921px 0px;
+    transform: translate3d(-172px, -276px, 22px) rotateZ(0deg);
+    transition: all 0.5s ease-out;
+}
+
+.name {
+    position: absolute;
+    height: 60px;
+    transform-style: preserve-3d;
+    left: 100%;
+    top: 50%;
+    width: 541px;
+    transform-origin: 270.263px 30.2215px 0px;
+    transform: translate3d(-326px, -30px, 0px) rotateZ(89.6533deg);
+    font-family: "Permanent Marker";
+    font-size: 40px;
+	color: rgb(255, 255, 255);
+}
+.photograph {
+    position: absolute;
+    transform-style: preserve-3d;
+    transform: translate3d(0.015389px, -0.00643139px, 0px);
+    width: 80%;
+    height: 90%;
+    left: 10%;
+    top: 5%;
+    border-radius: 50%;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px, rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
+}
+.iframe {
+    position: absolute;
+	border: none;
+	width: 89%;
+	height: 85%;
+	opacity: 0;
+	left: 10%;
+	top: 10%;
+}
+
+.quote {
+    border-left: 10px solid #666;
+	line-height: 1.15;
+	margin: 1.5em 10px;
+	padding: 0.5em 10px;
+	position: absolute;
+	transform-style: preserve-3d;
+	color: #666;
+	left: 64.05%;
+	top: 18.33%;
+	width: 264.04px;
+	height: 186.05px;
+	transform: translate3d(-8px, -18px, 26px) rotateY(5.21246deg)
+	mix-blend-mode: difference;
+}
+.quote::before {
+    color: #666;
+	content: open-quote;
+	font-size: 4em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+}
+
+.tagline {
+    position: absolute;
+	top: 155px;
+	transform-style: preserve-3d;
+	font-size: 33px;
+	left: 50%;
+	height: 42px;
+	width: 485px;
+	transform-origin: 246.381px 41.7968px 0px;
+	transform: translate3d(-305px, 89px, 0px) rotateZ(90deg);
+	color: rgb(236, 232, 232);
+}
+
+.nav-pills .nav-link.active {
+	background-color: #ea2e49;
+}
+.nav-pills .nav-link.active:hover {
+	background-color: #eaf299;
+}
+.nav-pills .nav-link:hover {
+	color: gray;
+}
+.nav-pills .nav-link {
+	color: white;
+}
