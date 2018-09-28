@@ -81,6 +81,18 @@ transition: all 0.5s ease-out;
     font-size: 40px;
 	color: rgb(255, 255, 255);
 }
+.tagline {
+    position: absolute;
+	top: 155px;
+	transform-style: preserve-3d;
+	font-size: 33px;
+	left: 50%;
+	height: 42px;
+	width: 100%;
+	transform-origin: 246.381px 41.7968px 0px;
+	transform: translate3d(-305px, 89px, 0px) rotateZ(90deg);
+	color: rgb(236, 232, 232);
+}
 .photograph {
     position: absolute;
     transform-style: preserve-3d;
@@ -124,19 +136,6 @@ transition: all 0.5s ease-out;
 	line-height: 0.1em;
 	margin-right: 0.25em;
 	vertical-align: -0.4em;
-}
-
-.tagline {
-    position: absolute;
-	top: 155px;
-	transform-style: preserve-3d;
-	font-size: 33px;
-	left: 50%;
-	height: 42px;
-	width: 485px;
-	transform-origin: 246.381px 41.7968px 0px;
-	transform: translate3d(-305px, 89px, 0px) rotateZ(90deg);
-	color: rgb(236, 232, 232);
 }
 
 .nav-pills .nav-link.active {
