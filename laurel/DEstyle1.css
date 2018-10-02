@@ -1,0 +1,92 @@
+/*
+CSS for Douglas Engelbart group project
+CSS style accessed 9/25/2018 from http://www.csszengarden.com/003/
+*/
+body {
+font : 11px/15px georgia, serif;
+text-align : center;
+color : #fff;
+background : url(bg2.gif) 0 0 repeat-y #748A9B;
+margin : 0;
+}
+p {
+text-align : justify;
+margin-top : 0;
+}
+h3 {
+font : bold 14px georgia, serif;
+text-transform : lowercase;
+margin-bottom : 0;
+}
+abbr {
+border-bottom : 1px dotted #fff;
+}
+a:link {
+font-weight : bold;
+text-decoration : underline;
+color : #A7D3F6;
+}
+a:visited {
+font-weight : bold;
+text-decoration : underline;
+color : #D1E9FC;
+}
+a:active, a:hover {
+text-decoration : underline;
+color : #fff;
+}
+
+.supporting {
+padding : 0 40px 0 0;
+float : right;
+width : 430px;
+}
+header h2 {
+text-indent : 100%;
+white-space : nowrap;
+overflow : hidden;
+}
+.summary {
+width : 685px;
+margin : 0 auto;
+position : relative;
+top : -50px;
+}
+html > body .summary {
+margin-top : -50px;
+top : 0;
+}
+h1 {
+	font : bold 14px georgia, serif;
+text-transform : none;
+margin-bottom : 0;
+}
+ul {
+  list-style: none;
+}
+div.a {
+    text-align: center;
+}
+p.main{
+	margin: 25px;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.bg {
+    /* The image used */
+    background-image: url("cheetah.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
